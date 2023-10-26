@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="number"] {
+    margin: 0.5em;
+}
+
+.setup{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em
+}
+
+.attacker-setup,
+.defender-setup {
+    padding: 1em;
+}
+
+.unit-input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .unit-input-wrapper label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .unit-input-wrapper input {
+    margin-left: 10px;
+  }
+  
